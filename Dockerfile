@@ -14,7 +14,7 @@ RUN wget https://github.com/Trust-Code/odoo/archive/14.0.zip -O odoo.zip && \
     wget https://github.com/Trust-Code/helpdesk/archive/14.0.zip -O helpdesk.zip && \
     wget https://github.com/odoo/design-themes/archive/14.0.zip -O design-themes.zip && \
     wget https://github.com/Trust-Code/trustcode-addons/archive/14.0.zip -O trustcode-addons.zip && \
-    wget https://github.com/Trust-Code/odoo-brasil/archive/14.0.zip -O odoo-brasil.zip && \
+    wget https://github.com/OCA/l10n-brazil/archive/14.0.zip -O odoo-brasil.zip && \
     wget https://github.com/code-137/odoo-apps/archive/14.0.zip -O code137-apps.zip
 
 RUN unzip -q odoo.zip && rm odoo.zip && mv odoo-14.0 odoo && \
